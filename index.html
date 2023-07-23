@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppCo | App Landing Page </title>  
+    <link rel="icon" type="image/png" href="https://appco.themetags.com/img/favicon.png" sizes="16x16">
+    <link  rel="stylesheet" type='text/css' href="style.css" media='screen'>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans&amp;display=swap" rel="stylesheet">
+    <!-- CSS only --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- owl scroll-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/regular.min.js" integrity="sha512-RNA9D6w1BGWFIVSGkGBsEEgVxoGNu7mtLZ+QQvwvoZHJHyoK19FF5R4xeM4AmdzreiwRzu8r0Xs89kFrOPh2zw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<header>
+  <!-- NAV BAR-->
+        <nav class="navbar navbar-expand-md  fixed-top navbar-dark bg-transparent affix">
+            <div class="container ">
+              <a class="navbar-brand" href="#">
+                <img src="https://appco.themetags.com/img/logo-white-1x.png" width="120" alt="logo" class="img img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
+                <ul class="navbar-nav pe-5 me-5" >
+                  <li class="nav-item ps-5">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ps-3 ">
+                    <a class="nav-link page-scroll" href="#Features">Features</a>
+                  </li>
+                  <li class="nav-item ps-3 ">
+                    <a class="nav-link page-scroll" href="#Pricing" >Pricing</a>
+                  </li>
+                  <li class="nav-item ps-3">
+                    <a class="nav-link page-scroll" href="#screens" >Screenshots</a>
+                  </li>
+                  <li class="nav-item dropdown ps-3">
+                  <a class="nav-link page-scroll dropdown-toggle" href="#" id="navbarDropdownHome" 
+                  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Blog
+                </a>
+                <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownHome">
+                    <a class="dropdown-item" href="#">Blog</a>
+                    <a class="dropdown-item" href="index-2.html">Blog 1</a>
+                    <a class="dropdown-item" href="index-3.html">Blog 2</a>
+                    <a class="dropdown-item" href="index-4.html">Blog 3</a>
+                    <a class="dropdown-item" href="index-8.html">BLog 4 <span class="badge badge-warning">New</span></a>
+                </div>
+                    </li>
+                  <li class="nav-item ps-3">
+                    <a class="nav-link page-scroll" href="#about" >About</a>
+                  </li>
+                  <li class="nav-item ps-3">
+                    <a class="nav-link page-scroll" href="#contact" >Contact </a>
+                  </li>
+                  <li class="nav-item ps-3">
+                    <a class="nav-link page-scroll" href="#team" >Team </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+    <!-- Header End-->
+ 
+
+    <div class="main">
+      
+      <section class="sec1 position-relative min-vh-100 background-video-overlay flex-column d-flex 
+         justify-content-center ">
+        <video class="fit-cover w-100 h-100 position-absolute z--1" autoplay muted loop id="myVideo" width="100%">
+          <source src="https://corporx.themetags.com/corporate.mp4" type="video/mp4" > 
+      </video>
+      <div class="container">
+        <div class="row justify-content-center align-items-center ">
+          <div class="col-md-8 col-lg-8">
+            <div class="hero-content-left text-white text-center mt-5">
+              <h1 class="h1 font-weight-bolder"> Build Anything that You Want </h1>
+              <p class="lead  mb-3 p-2">We offer Digital Marketing / SEO in Kalawad Road Rajkot, Gujarat. Find here details
+                 infomediaries whereas performance based about our company.</p>
+                 <div class="p-2">
+                 <a class=" btn-cont rounded-pill my-3 "> Contact with us </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <br>
+      <div class="client my-130  d-md-block d-lg-block">
+        <div class="container">
+          <div class="row justify-content-center align-items-center">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="client-slide text-center bg-gray-light shadow-lg p-5">
+                <div class="text-center">
+                  <p class="lead">Trusted by over 
+                    <span  style="color: #9629e6; font-weight: 900;"> 4,500+</span>
+                    customers, some of them are here
+                    
+                  </p>
+                </div>
+                <div class="img-iconn d-flex justify-content-center">
+                <ul class="list-inline text-center ">
+                  <li class="list-inline-item m-2">
+                    <img src="	https://appco.themetags.com/img/client-1-color.png" alt="client" class="img-fluid" width="85">
+                  </li>
+                  <li class="list-inline-item m-2">
+                    <img src="	https://appco.themetags.com/img/client-2-color.png" alt="client" class="img-fluid" width="85">
+                  </li >             
+                       <li class="list-inline-item m-2">
+                    <img src="https://appco.themetags.com/img/client-3-color.png" alt="client" class="img-fluid" width="85">
+                  </li>              
+                      <li class="list-inline-item m-2">
+                    <img src="https://appco.themetags.com/img/client-4-color.png" alt="client" class="img-fluid" width="85">
+                  </li>                  <li class="list-inline-item m s-2">
+                    <img src="https://appco.themetags.com/img/client-5-color.png" alt="client" class="img-fluid" width="85">
+                  </li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <section class="hero-section ptb-100" id="Features">
+       <div class="my-5 container">
+        <div class="row">
+          <div class="col-lg-5 col-md-8 col-sm-12">
+        <h6 style="color: #6730e3 "> KEY FEATURES </h4>
+        <h2 class="h2" style="font-weight: 500;"> We Will Helps you to Build Beautiful Websites</h2>
+      </div>
+      </div>
+       </div>
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-3 col-md-4 col-sm-6 card-1 ">
+              <div class="card single-promo-card single-promo-hover my-2   ">
+              <div class="m-2 card-body">
+              <h2 class=" fa-solid fa-credit-card display-7 icons" ></h2>
+              <p class="h5 font-weight-bold"> Modular</p>
+              <p class="text"> Components are built to be used in  combination.</p>
+            </div>
+            </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 card-1 ">
+            <div class="card single-promo-card single-promo-hover my-2  ">
+            <div class="m-2 card-body">
+              <h3 class=" display-8 icons" > <i class="fa-regular fa-circle"></i></h3>
+              <p class="h5 font-weight-bold"> Responsive</p>
+              <p class="text">Quick is optimized to work for most devices.</p>
+            </div>
+           </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 card-1 ">
+            <div class="card single-promo-card single-promo-hover  my-2  ">
+            <div class="m-2 card-body">
+              <h2  class=" display-7 icons" ><i class="fa-solid fa-bezier-curve"></i> </h2>
+              <p class="h5 font-weight-bold"> Scalable</p>
+              <p class="text">Remain consistent while developing new features.</p>
+            </div>
+           </div>
+           </div>
+           <div class="col-lg-3 col-md-4 col-sm-6 card-1 ">
+            <div class="card single-promo-card single-promo-hover  my-2  ">
+            <div class="m-2 card-body">
+              <h3 class=" display-7 icons" > <i class="fa-solid fa-receipt"></i></h3>
+              <p class="h5 font-weight-bold"> Customizable</p>
+              <p class="text">Change a few variables and the theme adapts.</p>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- End Features -->
+
+    <section id="about" class="mt-5 bg-light p-4">   
+     <div class="container my-5">
+      <div class="row">
+        <div class=" col-md-6  col-lg-6" >
+         <div class="heade">
+          <h6 style="color: #6730e3 "> ABOUT OUR GOAL </h4>
+            <h2 class="h2" style="font-weight: 500;"> We Help Drive your Business Forward Faster</h2>
+          <p class="text-muted mt-3">
+            Proactively syndicate open-source e-markets after low-risk high-yield synergy.
+             Professionally simplify visionary technology before team driven sources grow bleeding-edge leadership.
+          </p>
+         </div>
+         <div class="all-feature mb-4">
+           <div class="icon-head d-flex align-items-center mb-2">
+            <span class=" fa-solid fa-bezier-curve rounded icon icon-c1 "></span>
+            <h5 class="ms-3 mb-0"> Easy to use</h5>
+           </div>
+           <p class="text-muted">
+            Synergistically deliver next-generation relationships whereas
+             bleeding-edge resources. Continually pontificate stand-alone benefits whereas.
+           </p>
+         </div>
+         <div class="all-feature mb-4">
+          <div class="icon-head d-flex align-items-center mb-2">
+           <span class="rounded icon icon-c2 "> <i class="fa-solid fa-gauge-high"></i></span>
+           <h5 class="ms-3 mb-0"> Increase conversion </h5>
+          </div>
+          <p class="text-muted">
+            Phosfluorescently empower compelling intellectual capital 
+            and revolutionary web services. Compellingly develop cross-media.
+          </p>
+        </div>
+        <div class="all-feature mb-4">
+          <div class="icon-head d-flex align-items-center mb-2">
+           <span class="rounded icon icon-c3 "> <i class="fa-regular fa-bell"></i></span>
+           <h5 class="ms-3 mb-0"> 24/7 Support</h5>
+          </div>
+          <p class="text-muted">
+            Phosfluorescently matrix enterprise-wide metrics vis-a-vis extensive imperatives.
+             Energistically empower best-of-breed human
+          </p>
+        </div>
+
+        <div class="all-feature mb-4">
+          <a href="#best-features" class="btn solid-btn mt-2 rounded-pill">View additional 10+ features</a>
+        </div>
+
+        </div>
+        <div class=" col-md-4  col-lg-4 justify-content-center " >
+          <div class="about-img  t">
+            <img src="https://appco.themetags.com/img/about-img.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+   <!- End About -->
+
+    
+    
+    
+  <section class="download-video ptb-100 download-bg position-relative min-vh-50 background-video-overlay flex-column d-flex 
+  justify-content-center p-5">
+    <div class="container ">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 col-sm-12 col-xs-12 ">
+          <div class="download-video-content mt-4 text-center text-white">
+            <a href="https://www.youtube.com/watch?v=9No-FiEInLA" 
+            class="popup-youtube video-play-icon d-inline-block my-4">
+            <span > <i class="fa-solid fa-play" style="font-size: 22px !important"></i></span></a>
+            <h5 class="my-5 "> Watch video overviews</h5>
+          
+      
+            <a class=" btn-cont rounded-pill ms-5 me-3 "> <span class=""><i class="fa-brands fa-android"></i></span> Google play </a>
+            <a class=" btn-cont rounded-pill  "> <span class=""><i class="fa-brands fa-apple"></i></span> APP store </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end dowenload-->
+
+<section class="best-features bg-light p-5 " id="best-features">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class=" col-lg-9 text-center my-5">
+        <h4 style="color: #6730e3 "> BEST FEATURES </h4>
+          <h2 class="h2" style="font-weight: 500;"> Easy Process with Best Features </h2>
+          <p class="text-muted "  > 
+            Objectively deliver professional value with diverse web-readiness. Collaboratively transition wireless 
+            customer service without goal-oriented catalysts for change. Collaboratively.
+          </p>
+      </div>
+    </div>
+  </div>
+   
+  <div class="container">
+    <div class="row justify-content-between">
+     <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="all-feature mb-4">
+        <div class="icon-head d-flex align-items-center mb-2">
+         <span class=" rounded-pill icon icon-c2 "><i class="fa-regular fa-face-smile"></i></span>
+         <h5 class="ms-3 mb-0"> Responsive web design</h5>
+        </div>
+        <p class="text-muted">
+          Modular and interchangable componente between layouts and even demos.
+        </p>
+      </div>
+      <div class="all-feature mb-4">
+       <div class="icon-head d-flex align-items-center mb-2">
+        <span class=" rounded-pill icon icon-c1 "><i class="fa-solid fa-bezier-curve"></i></span>
+        <h5 class="ms-3 mb-0"> Loaded with features </h5>
+       </div>
+       <p class="text-muted">      
+          Loaded with features Modular and interchangable componente between layouts and even demos.
+       </p>
+     </div>
+     <div class="all-feature mb-4">
+       <div class="icon-head d-flex align-items-center mb-2">
+        <span class=" rounded-pill icon icon-c3 "> <i class="fa-solid fa-headset"></i> </span>
+        <h5 class="ms-3 mb-0"> Friendly online support </h5>
+       </div>
+       <p class="text-muted">
+        Modular and interchangable componente between layouts and even demos.
+       </p>
+     </div>
+
+     </div>
+     <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="position-relative me-3 my-2">
+        <img alt="Image" src="	https://appco.themetags.com/img/image-15.png" class="img-center img-fluid">
+      </div>
+     </div>
+     <div class="col-lg-4 col-md-6 col-sm-12">
+
+      <div class="all-feature mb-4 ">
+        <div class="icon-head d-flex align-items-center mb-2">
+         <span class=" rounded-pill icon icon-c3 "> <i class="fa-regular fa-rectangle-list"></i> </span>
+         <h5 class="ms-3 mb-0">Free updates forever</h5>
+        </div>
+        <p class="text-muted">
+          Modular and interchangable componente between layouts and even demos.
+        </p>
+      </div>
+      <div class="all-feature mb-4">
+       <div class="icon-head d-flex align-items-center mb-2">
+        <span class=" rounded-pill icon icon-c1 "> <i class="fa-brands fa-simplybuilt"></i></span>
+        <h5 class="ms-3 mb-0">Built with Sass </h5>
+       </div>
+       <p class="text-muted">      
+          Loaded with features Modular and interchangable componente between layouts and even demos.
+       </p>
+     </div>
+     <div class="all-feature mb-4">
+       <div class="icon-head d-flex align-items-center mb-2">
+        <span class=" rounded-pill icon icon-c2 "> <i class="fa-solid fa-palette"></i></span>
+        <h5 class="ms-3 mb-0">Infinite colors </h5>
+       </div>
+       <p class="text-muted">
+        Modular and interchangable componente between layouts and even demos.
+       </p>
+     </div>
+     </div> 
+    </div>
+   </div>
+</section>
+
+<!-- end best features-->
+
+<section class="best-features  m-5 " id="Pricing">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class=" col-lg-7 text-center my-5">
+        <h6 style="color: #6730e3 "> OUR PRICING PACKAGE </h6>
+          <h2 class="h2" style="font-weight: 500;"> Affordable Pricing and Packages Choose your Best One </h2>
+          <p class="text-muted "  > 
+            Distinctively brand cutting-edge imperatives through synergistic strategize orthogonal 
+            relationships whereas infrastructures customize low-risk high-yield processes rather than user friendly.
+          </p>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card text-center p-5" id="card-price">
+          <div class="card-body ">
+            <h5 class="card-title mb-4 " style="font-weight:bold;">Basic</h5>
+            <div class="img-price mb-3 mt-3">
+              <img class="img-fluid" src="https://appco.themetags.com/img/basic.svg"
+               width="65px" height="auto">
+
+            </div>
+            <p class="card-text text-muted mt-3 pt-2 ">5 Users access same time
+              Integrated eCommerce Customization interface Weekly updated 24/7 Phone Support Event Analytics</p>
+              <p class="h4 mt-3" style=" color: #9629e6; font-weight: bolder;"> $29</p>
+              <a href="#" class="btn btn-cont rounded-pill">Purcase now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card text-center p-5 my-3" id="card-price" style="border-top: 5px solid #9629e6;
+             box-shadow: 0 .2em .5rem rgba(31,45,61,.125)!important;">
+          <div class="card-body ">
+            <h5 class="card-title mb-4 " style="font-weight:bold;">Standard</h5>
+            <div class="img-price mb-3 mt-3">
+              <img class="img-fluid" src="	https://appco.themetags.com/img/standard.svg"
+               width="65px" height="auto">
+
+            </div>
+            <p class="card-text text-muted mt-3 pt-2 ">10 Users access same time
+              Integrated eCommerce Customization interface Weekly updated 24/7 Phone Support Event Analytics</p>
+              <p class="h4 mt-3" style=" color: #9629e6; font-weight: bolder;"> $145</p>
+              <a href="#" class="btn btn-cont rounded-pill">Purcase now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card text-center p-5" id="card-price">
+          <div class="card-body ">
+            <h5 class="card-title mb-4 " style="font-weight:bold;">Unlimited</h5>
+            <div class="img-price mb-3 mt-3">
+              <img class="img-fluid" src="	https://appco.themetags.com/img/unlimited.svg"
+               width="65px" height="auto">
+
+            </div>
+            <p class="card-text text-muted mt-3 pt-2 ">20 Users access same time
+              Integrated eCommerce Customization interface Weekly updated 24/7 Phone Support Event Analytics</p>
+              <p class="h4 mt-3" style=" color: #9629e6; font-weight: bolder;"> $267</p>
+              <a href="#" class="btn btn-cont rounded-pill">Purcase now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container m-5">
+      <div class="row justify-content-center">
+       <div class="col-lg-12 text-center">
+        <p class="lead text-center">If you need custom services or Need more? 
+          <span> <a href="#contact"  style="text-decoration: none; color:#9629e6"> Contact us</a></span>
+          </p>
+       </div>
+        </div>
+        </div>
+  </div>
+</section>
+<!-- end price section-->
+
+<section class="best-features bg-light m-5 " id="screens">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class=" col-lg-8 text-center my-5">
+        <h6 style="color: #6730e3 "> APP SCREENSHOTS </h6>
+          <h2 class="h2" style="font-weight: 500;"> App Screenshots Looks Awesome </h2>
+          <p class="text-muted "  > 
+            Credibly synthesize multimedia based networks vis-a-vis re-engineer enterprise-wide imperatives whereas fully tested web-readiness.
+             Continually leverage existing worldwide interfaces
+          </p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class=" col-lg-12 text-center my-5">
+        <div class="screens-cour">
+          <div class="owl-carousel">
+            <div> 
+              <div class="carousel-item active" data-bs-interval="10000" style="width: 230px ;">
+                <img src="https://appco.themetags.com/img/01.png" class="d-block img-fluid" alt="...">
+              </div>  
+            </div>
+            <div> 
+              <div class="carousel-item active" data-bs-interval="10000" style="width: 230px ;">
+                <img src="https://appco.themetags.com/img/02.png" class="d-block img-fluid" alt="...">
+              </div>  
+            </div>
+            <div> 
+              <div class="carousel-item active" data-bs-interval="10000" style="width: 230px ;">
+                <img src="https://appco.themetags.com/img/03.png" class="d-block img-fluid" alt="...">
+              </div>  
+            </div>
+            <div> 
+              <div class="carousel-item active" data-bs-interval="10000" style="width: 230px ;">
+                <img src="https://appco.themetags.com/img/04.png" class="d-block img-fluid" alt="...">
+              </div>  
+            </div>
+            <div> 
+              <div class="carousel-item active" data-bs-interval="10000" style="width: 230px ;">
+                <img src="https://appco.themetags.com/img/05.png" class="d-block img-fluid" alt="...">
+              </div>  
+            </div>
+            <div> 
+              <div class="carousel-item active" data-bs-interval="10000" style="width: 230px ;">
+                <img src="https://appco.themetags.com/img/06.png" class="d-block img-fluid" alt="...">
+              </div>  
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+  </section>
+  <!-- end screenshot section -->
+
+  <section class="best-features bg-light p-5 mt-5 " id="reviews">
+    <div class="container">
+      <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <div>
+        <h6 style="color: #6730e3 "> OUR TRUSTED CLIENTS </h6>
+        <h2 class="h2" style="font-weight: 500;"> What Clients Say About Us </h2>
+        <p class="text-muted  lead"  > 
+          Rapidiously morph transparent internal or "organic" sources whereas resource sucking e-business. 
+          Conveniently innovate compelling internal..
+        </p>
+      </div>
+      <div class="img-iconn d-flex flex-row align-items-center">
+        
+        <ul class="list-inline">
+          <li class="list-inline-item ">
+            <img src="https://appco.themetags.com/img/client-1-color.png" width="85" class="img-fluid" id="img-1">
+          </li>
+          <li class="list-inline-item m-3">
+            <img src="https://appco.themetags.com/img/client-6-color.png" width="85" class="img-fluid ">
+          </li>
+          <li class="list-inline-item">
+            <img src="https://appco.themetags.com/img/client-3-color.png" width="85" class="img-fluid">
+          </li>
+        </ul>
+      </div>
+      </div>
+ 
+        <div class="col-lg-4 col-md-5">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active " data-bs-interval="10000">
+                <div class="media author-info mb-3">
+                  <div class="author-img mr-3">
+                      <img src="https://appco.themetags.com/img/client-2.jpg" alt="client" class="img-fluid rounded-circle" width="66">
+                      <span> <strong> Arabella Ora </strong> <small>Amazon</small></span>
+                  </div>
+              </div>
+              <div class="client-say">
+                  <p class="text-muted"><img src="https://appco.themetags.com/img/quote.png" alt="quote" class="img-fluid" width="19">  Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas. </p>
+                 </div>
+              </div>
+              </div>
+              <div class="carousel-item " data-bs-interval="10000">
+                <div class="media author-info mb-3">
+                  <div class="author-img mr-3">
+                      <img src="https://appco.themetags.com/img/client-1.jpg" alt="client" class="img-fluid rounded-circle" width="66">
+                      <span> <strong> Arabella Ora </strong> <small>Amazon</small></span>
+                  </div>
+              </div>
+              <div class="client-say">
+                  <p class="text-muted"><img src="https://appco.themetags.com/img/quote.png" alt="quote" class="img-fluid" width="19">  Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
+                 </div>
+              </div>
+              <div class="carousel-item " data-bs-interval="10000">
+                <div class="media author-info mb-3">
+                  <div class="author-img mr-3">
+                      <img src="https://appco.themetags.com/img/client-1.jpg" alt="client" class="img-fluid rounded-circle" width="66">
+                      <span> <strong> Jerrey Ora </strong> <small>Google</small></span>
+                  </div>
+              </div>
+              <div class="client-say">
+                  <p class="text-muted"><img src="https://appco.themetags.com/img/quote.png" alt="quote" class="img-fluid" width="19">  Rapidiously develop user friendly growth strategies after extensive initiatives. Conveniently grow innovative benefits through fully tested deliverables. Rapidiously utilize focused platforms through end-to-end schemas.</p>
+                 </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- End reviews-->
+   <section class="m-5" id="contact">
+    <div class="container">
+      <div class="row">
+      <div class="col-lg-5">
+        <div class="content">
+          <h2> Contact With Us </h2>
+          <p class="text-muted">It's very easy to get in touch with us. Just use the contact form or pay us a visit for a coffee at the office. Dynamically
+             innovate competitive technology after an expanded array of leadership.
+           </p>
+        </div>
+        <div>
+          <h6 class="ms-2">Head Office</h6>
+          <p> 121 King St, Melbourne VIC 3000, Australia</p>
+        </div>
+        <div>
+          <p > Phone: +61 2 8376 6284</p>
+          <p > Email : <a style="color: rgb(17, 17, 253);" href="mailto:hello@yourdomain.com"> hello@yourdomain.com</a></p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <form action="#" class="contactus" method="post" novalidate="true">
+          <h5>Reach us quickly </h5>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-group m-2">
+                <input type="text" class="form-control" name="name" id="name" 
+                    placeholder="Enter name" required="required" >
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-group  m-2">
+                <input type="email" class="form-control" name="email" id="email" 
+                    placeholder="Enter emai" required="required" >
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-group  m-2">
+                <input type="text" class="form-control" name="phone" id="phone" 
+                    placeholder=" Your phone " required="required" >
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+              <div class="form-group  m-2">
+                <input type="text" class="form-control" name="company" id="company" 
+                    placeholder="Your company" required="required" >
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 col-sm-12">
+              <div class="form-group  m-2">
+                <textarea name="textarea" id="textarea" cols="68"class="form-control"
+                 rows="7" placeholder="Message" class="rounded" style="border-color: rgb(172, 172, 172);"></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 mt-3">
+              <button class="btn solid-btn rounded-pill"> Send message</button>
+            </div>
+          </div>
+        </form>
+     
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- End contact sectiion-->
+<!--</div> -->
+<!-- End main div-->
+  <footer class="footer-section">
+  <div class="footer-top pt-60 background-footer pt-5">
+  <div class="container">
+    <div class="row justify-content-between my-2 ">
+      <div class="col-lg-3 col-md-6  col-sm-12 mb-lg-0 mb-md-4 mb-sm-4">
+        <div class="footer-nav-wrap text-white">
+          <img src="https://appco.themetags.com/img/logo-white-1x.png" alt="footer logo" width="120" class="img-fluid mb-3">
+          <p> Holisticly empower premium architectures without value-added ideas.
+             Seamlessly evolve cross-platform experiences.</p>
+        </div>
+        <div class="social-icon">
+           <ul class="list-inline list-unstyled">
+            <li class="list-inline-item"> 
+              <a href="#" target="_blank" title="facbook">
+              <span class=" "><i class="fa-brands fa-facebook"></i></span>
+              </a>
+            </li>
+            <li class="list-inline-item"> 
+              <a href="#" target="_blank" title="twitter">
+              <span  class=" "> <i class="fa-brands fa-twitter"></i></span>
+              </a>
+            </li>
+            <li class="list-inline-item"> 
+              <a href="#" target="_blank" title="facbook">
+              <span  class=""><i class="fa-brands fa-instagram"></i></span>
+              </a>
+            </li>
+            <li class="list-inline-item"> 
+              <a href="#" target="_blank" title="facbook">
+              <span  class=" "><i class="fa-brands fa-pinterest"></i></span>
+              </a>
+            </li>
+           </ul>
+        </div>
+         </div>
+      <div class="col-lg-3 col-md-6  col-sm-12 mb-lg-0 mb-md-4 mb-sm-4">  
+        <div class="footer-nav-wrap text-white">
+          <h5 class="mb-3 text-white">Resources</h5>
+          <ul class=" list-unstyled">
+            <li class=""> 
+              <a href="#" class="mb-2"> Help</a>
+            </li>
+            <li class=""> 
+              <a href="#" class="mb-2"> Events</a>
+            </li>
+            <li class=""> 
+              <a href="#" class="mb-2"> Live Support</a>
+            </li>
+            <li class=""> 
+              <a href="#" class="mb-2"> Open Sources</a>
+            </li>
+            <li class=""> 
+              <a href="#" class="mb-2"> Documentation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6  col-sm-12 mb-lg-0 mb-md-4 mb-sm-4">
+        <div class="footer-nav-wrap text-white">
+          <h5 class="mb-3 text-white">Company</h5>
+          <ul class=" list-unstyled">
+            <li class=""> 
+              <a href="#about" class="mb-2"> About Us</a>
+            </li>
+            <li class=""> 
+              <a href="#" class="mb-2"> Careers</a>
+            </li>
+            <li class=""> 
+              <a href="#" class="mb-2"> Customers</a>
+            </li>
+            <li class=""> 
+              <a href="#" class="mb-2"> Community</a>
+            </li>
+            <li class=""> 
+              <a href="#team" class="mb-2"> Our Team </a>
+            </li>
+          </ul>
+        </div>  
+      </div>
+      <div class="col-lg-3 col-md-6  col-sm-12 mb-lg-0 mb-md-4 mb-sm-4">
+        
+        <div class="footer-nav-wrap text-white">
+          <h5 class="mb-3 text-white">Location</h5>
+          <ul class=" list-unstyled">
+            <li class=" mb-2 align-items-center d-flex"> 
+              <span class=" me-2"><i class="fa-solid fa-location-dot"></i></span>
+                 121 King Melbourne <br>
+                 Australia 3000
+            </li>
+            <li class="  mb-2 align-items-center d-flex"> 
+              <span class=" me-2"><i class="fa-solid fa-phone"></i></span>
+              <a href="tel:+61283766284"> +61 2 8376 6284</a>
+            </li>
+            <li class=" mb-2 align-items-center d-flex"> 
+              <span class=" me-2"><i class="fa-regular fa-envelope"></i></span>
+              <a href="mailto:mail@example.com"> mail@example.com</a>
+            </li>
+            <li class=" mb-2 align-items-center d-flex"> 
+              <span class=" me-2"><i class="fa-solid fa-globe"></i></span>
+              <a href="#"> www.yourdomain.com</a>
+            </li>
+
+           </ul>
+         </div>
+       </div>
+      </div>
+    </div>
+    <div class="footer-bottom border-light-light mt-5 py-3 footer-border ">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 col-lg-7">
+                  <div class="copyright-wrap small-text">
+                      <p class="mb-0 text-white ms-0">© ThemeTags Design Agency, All rights reserved</p>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-5">
+                  <div class="terms-policy-wrap text-lg-right text-md-right text-left">
+                      <ul class="list-inline">
+                          <li class="list-inline-item"><a class="small-text" href="#">Terms</a></li>
+                          <li class="list-inline-item"><a class="small-text" href="#">Security</a></li>
+                          <li class="list-inline-item"><a class="small-text" href="#">Privacy Policy</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+   </div>
+  </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" 
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      
+    $(".owl-carousel").owlCarousel({
+        center: true,
+        items:4,
+        loop:true,
+        margin:2,
+        autoplay:true,
+        autoplayTimeout:1000,
+        dots:true, 
+        stagePadding:4,
+        responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+    });
+    
+    </script>
+</body>
+</html>
